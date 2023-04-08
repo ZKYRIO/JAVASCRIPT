@@ -1,0 +1,49 @@
+# Dibuat oleh https://www.toptal.com/developers/gitignore/api/windows, visualstudiocode
+# Edit di https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
+
+### Kode VisualStudio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.kode-cuplikan
+
+# Riwayat Lokal untuk Kode Visual Studio
+.sejarah/
+
+# Ekstensi Kode Visual Studio Dibangun
+*.vsix
+
+### VisualStudioCode Patch ###
+# Abaikan semua riwayat file lokal
+.sejarah
+.ionida
+
+### Jendela ###
+# File cache thumbnail Windows
+Jempol.db
+Thumbs.db: dapat dienkripsi
+ehthumbs.db
+ehthumbs_vista.db
+
+# Buang file
+*.stackdump
+
+# File konfigurasi folder
+[Dd]esktop.ini
+
+# Recycle Bin digunakan pada file share
+$DAUR ULANG.BIN/
+
+# File Penginstal Windows
+*.taksi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Pintasan Windows
+*.lnk
+
+# Akhir dari https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
